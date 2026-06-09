@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Horizon</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Event Horizon</h1>
+    </header>
+
+    <main>
+
+        <!-- Search Bar -->
+        <section class="search-section">
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search events by name or date">
+        </section>
+
+        <!-- Events Display -->
+        <section id="eventList" class="event-list">
+
+        </section>
+
+        <!-- Add Event Form -->
+        <section class="form-section">
+
+            <h2>Add New Event</h2>
+
+            <form id="eventForm">
+
+                <input
+                    type="text"
+                    id="eventName"
+                    placeholder="Event Name">
+
+                <input
+                    type="date"
+                    id="eventDate">
+
+                <textarea
+                    id="eventDescription"
+                    placeholder="Event Description"></textarea>
+
+                <button type="submit">
+                    Add Event
+                </button>
+
+            </form>
+
+            <p id="warningMessage"></p>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Jawad Khan - 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
